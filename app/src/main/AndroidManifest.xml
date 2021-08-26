@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyGadget">
         <activity
+            android:name=".OnBoarding"
+            android:exported="true" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true" />
         <activity
