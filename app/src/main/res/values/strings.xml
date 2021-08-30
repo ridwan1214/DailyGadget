@@ -2,4 +2,38 @@
     <string name="app_name">DailyGadget</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="price">Rp14.999.999</string>
+    <string name="percent_discount">1%</string>
+    <string name="discount_price"><strike>Rp 15.199.999</strike></string>
+    <string name="detail_name">Lenovo ThinkBook 14 G2 ITL Core i5-1135G7 8GB \n512 SSD Iris Xe W10 Pro - 8GB</string>
+    <string name="terjual">Terjual 24</string>
+    <string name="rating">4.8</string>
+    <string name="review_rating">(14)</string>
+    <string name="pilih_capacity">Pilih Capacity:</string>
+    <string name="detail_capacity">8GB</string>
+    <string name="stok_barang"><![CDATA[Stok tinggal <8, beli segera!]]></string>
+    <string name="detail_produk">Detail Produk</string>
+    <string name="kondisi">Kondisi</string>
+    <string name="kondisi_detail">Baru</string>
+    <string name="min_pemesananan">Min. Pemesananan</string>
+    <string name="detail_pemesanan">1 buah</string>
+    <string name="etalase">Etalase</string>
+    <string name="detail_etalase">ThinkBook NoteBook</string>
+    // Readmore
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat, nunc eget volutpat viverra, lacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis. Donec lacus ligula, commodo quis eleifend ac, rhoncus sed mi. Curabitur luctus justo vel consequat fermentum. Donec facilisis elit in sem suscipit pharetra. Curabitur porta et dolor eget pretium. Mauris quam augue, interdum nec tempor vitae, consectetur at erat.</string>
+    <string name="lorem_ipsum2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat, nunc eget volutpat viverra, lacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis. Donec lacus ligula, commodo quis eleifend ac, rhoncus sed mi. </string>
+    <string name="lorem_ipsum3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Cras feugiat, nunc eget volutpat viverra, lacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis.</string>
+    <string name="show_all_content">Baca selengkapnya</string>
+    <string name="one_line_text">One line text</string>
+    <string name="favorites">favorites</string>
+    <string name="music">music</string>
+    <string name="places">places</string>
+    <string name="news">news</string>
+    // Bottom Navigation
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <string name="keranjang">+Keranjang</string>
+    <string name="beli_langsung">Beli Langsung</string>
 </resources>
