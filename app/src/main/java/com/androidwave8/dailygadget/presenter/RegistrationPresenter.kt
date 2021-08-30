@@ -3,7 +3,7 @@ package com.androidwave8.dailygadget.presenter
 import android.text.TextUtils
 import android.widget.EditText
 import com.androidwave8.dailygadget.model.User
-import com.androidwave8.dailygadget.model.App
+import com.androidwave8.dailygadget.App
 import com.androidwave8.dailygadget.view.RegistrationActivityView
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -39,7 +39,7 @@ class RegistrationPresenter(private val v: RegistrationActivityView) {
     fun register(user: User) {
         GlobalScope.launch(Dispatchers.IO) {
             try {
-                App.db
+                App.dbUser
                     ?.usersDao()
                     ?.insertUser(user)
 
