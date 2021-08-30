@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.androidwave8.dailygadget.databinding.ActivityRegistrationBinding
 import com.androidwave8.dailygadget.model.User
 import com.androidwave8.dailygadget.presenter.RegistrationPresenter
+import com.androidwave8.dailygadget.ui.home.HomeActivity
 import com.androidwave8.dailygadget.utils.getTextToString
 
 
@@ -43,7 +44,7 @@ class RegistrationActivity : AppCompatActivity(), RegistrationActivityView {
 
     override fun regSuccess() {
         Toast.makeText(this, "Successfully created a new user", Toast.LENGTH_SHORT).show()
-        Intent(this, DummyActivity::class.java).apply{
+        Intent(this, HomeActivity::class.java).apply{
             startActivity(this)
         }
         finish()
