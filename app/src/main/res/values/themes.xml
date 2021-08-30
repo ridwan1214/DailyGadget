@@ -14,7 +14,8 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.splashscreen.fullscreen" parent="Theme.DailyGadget">
+
+    <style name="Theme.Onboarding.fullscreen" parent="Theme.DailyGadget">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowActionBar">false</item>
