@@ -24,4 +24,11 @@
 
 <!--    <color name="green">#01A75F</color>-->
     <color name="greenOff">#26B476</color>
+    <color name="green_500">#3E893D</color>
+    <color name="green_200">#54AE22</color>
+    <color name="pink_200">#fceaef</color>
+    <color name="pink_500">#F15989</color>
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+    <color name="green_300">#4ca860</color>
 </resources>

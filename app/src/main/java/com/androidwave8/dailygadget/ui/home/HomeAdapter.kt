@@ -24,9 +24,9 @@ class HomeAdapter(
     private lateinit var listenClickEdit: (Gadget, Int) -> Unit
     private lateinit var listenClickItem: (Gadget) -> Unit
 
-//    fun setListenerClickItem(listenClickItem: (Gadget) -> Unit) {
-//        this.listenClickItem = listenClickItem
-//    }
+    fun setListenerClickItem(listenClickItem: (Gadget) -> Unit) {
+        this.listenClickItem = listenClickItem
+    }
 
     fun setListenClickEdit(listenClickEdit: (Gadget, Int) -> Unit) {
         this.listenClickEdit = listenClickEdit
@@ -69,6 +69,10 @@ class HomeAdapter(
         val item = data[position]
         holder.setData(item) // set data ke view
 
+        holder.itemView.setOnClickListener {
+            listenClickItem(item)
+        }
+
     }
 
     // method ini fungsinya untuk, berapa item yang mau kita tampilin karna mau semua item
@@ -94,11 +98,11 @@ class HomeAdapter(
 
 
             v.imgEditList.setOnClickListener {
-                listenClickEdit(data, adapterPosition)
+                listenClickEdit(data, absoluteAdapterPosition)
             }
 
             v.imgDeleteList.setOnClickListener {
-                deleteData(adapterPosition)
+                deleteData(absoluteAdapterPosition)
                 GlobalScope.launch(Dispatchers.IO) {
                     try {
                         App.db.gadgetsDao().deleteGadget(data)

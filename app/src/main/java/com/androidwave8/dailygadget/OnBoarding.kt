@@ -13,6 +13,7 @@ import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.androidwave8.dailygadget.databinding.ActivityOnBoardingBinding
+import com.androidwave8.dailygadget.view.RegistrationActivity
 import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
 
 class OnBoarding : AppCompatActivity() {
@@ -84,18 +85,18 @@ class OnBoarding : AppCompatActivity() {
                 val currentItemPosition = binding.pager.currentItem
                 if (currentItemPosition == itemList.size - 1) {
                     Toast.makeText(this, "Start Login Activity", Toast.LENGTH_SHORT).show()
-                    /*Intent(this, LoginActivity::class.java).apply {
+                    Intent(this, RegistrationActivity::class.java).apply {
                         startActivity(this)
-                    }*/
+                    }
                     return
                 }
                 binding.pager.setCurrentItem(currentItemPosition+1,true)
             }
             binding.tvSkip -> {
                 Toast.makeText(this, "Start Login Activity", Toast.LENGTH_SHORT).show()
-                /*Intent(this, LoginActivity::class.java).apply {
+                Intent(this, RegistrationActivity::class.java).apply {
                     startActivity(this)
-                }*/
+                }
             }
         }
     }

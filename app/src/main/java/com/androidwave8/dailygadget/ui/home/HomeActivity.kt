@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.androidwave8.dailygadget.data.db.Gadget
+import com.androidwave8.dailygadget.data.ui.DetailActivity
 import com.androidwave8.dailygadget.databinding.ActivityHomeBinding
 import com.androidwave8.dailygadget.ui.list.ListActivity
 
@@ -26,6 +27,12 @@ class HomeActivity : AppCompatActivity(), HomeView {
         presenter.getAllListGadget()
         binding.rvListGadget.layoutManager = StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL)
         binding.rvListGadget.adapter = adapter
+
+        adapter.setListenerClickItem { gadget ->
+            Intent(this, DetailActivity::class.java).apply {
+                startActivity(this)
+            }
+        }
 
         adapter.setListenClickEdit { gadget, index ->
             val myIntent = Intent(this, ListActivity::class.java)
