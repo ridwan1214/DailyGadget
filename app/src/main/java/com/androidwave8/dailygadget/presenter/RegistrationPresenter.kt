@@ -4,7 +4,6 @@ import android.text.TextUtils
 import android.widget.EditText
 import com.androidwave8.dailygadget.model.User
 import com.androidwave8.dailygadget.model.App
-import com.androidwave8.dailygadget.view.RegistrationActivityView
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

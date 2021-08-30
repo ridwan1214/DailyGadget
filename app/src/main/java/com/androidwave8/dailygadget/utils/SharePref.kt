@@ -15,6 +15,42 @@ object SharePref {
         get() = pref
             .getBoolean("ISLOGIN", false)
 
+    var username: String?
+        set(value) {
+            pref.edit()
+                .putString("USERNAME", value)
+                .apply()
+        }
+        get() = pref
+            .getString("USERNAME", "")
+
+    var password: String?
+        set(value) {
+            pref.edit()
+                .putString("PASSWORD", value)
+                .apply()
+        }
+        get() = pref
+            .getString("PASSWORD", "")
+
+    var email: String?
+        set(value) {
+            pref.edit()
+                .putString("EMAIL", value)
+                .apply()
+        }
+        get() = pref
+            .getString("EMAIL", "")
+
+    var address: String?
+        set(value) {
+            pref.edit()
+                .putString("ADDRESS", value)
+                .apply()
+        }
+        get() = pref
+            .getString("ADDRESS", "")
+
     fun removeLogin() {
         pref.edit().remove("ISLOGIN").apply()
     }

@@ -5,33 +5,30 @@ import android.os.Bundle
 import android.widget.Toast
 import com.androidwave8.dailygadget.databinding.ActivityProfileBinding
 import com.androidwave8.dailygadget.presenter.ProfilePresenter
-import com.androidwave8.dailygadget.utils.getTextToString
+import com.androidwave8.dailygadget.utils.SharePref
+
 
 
 class ProfileActivity : AppCompatActivity(),ProfileActivityView {
     private lateinit var binding : ActivityProfileBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)git
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val presenter = ProfilePresenter(this)
 
-        val username = binding.tvUsernameData.text.toString()
-        val password = binding.tvPasswordData.text.toString()
-        val email = binding.tvEmailData.text.toString()
-        TODO("bug on address data")
-        //val address = binding.tvAddressData
-
-        presenter.getUser(email, password)
+        binding.tvUsernameData.text = SharePref.username
+        binding.tvEmailData.text = SharePref.email
+        binding.tvPasswordData.text = SharePref.password
+        binding.tvAddressData.text = SharePref.address
 
 
     }
 
     override fun getProfileSuccess() {
-        Intent(this, DummyActivity::class.java).apply {
+        /*Intent(this, DummyActivity::class.java).apply {
             startActivity(this)
-        }
+        }*/
         finish()
     }
 
