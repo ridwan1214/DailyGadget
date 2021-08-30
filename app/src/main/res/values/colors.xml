@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
     <!-- Registration -->
     <!--<color name="green_main_color">#135753</color>-->
     <color name="grey_outline">#6C727C</color>
@@ -20,5 +21,7 @@
     <color name="green_profile">#DCF3DD</color>
     <color name="yellow_profile">#F6A33D</color>
 
+    <color name="green">#01A75F</color>
+    <color name="greenOff">#26B476</color>
 
 </resources>
