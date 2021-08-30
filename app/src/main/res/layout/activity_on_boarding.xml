@@ -72,5 +72,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/guide"
         app:stiffness="300" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
