@@ -3,6 +3,7 @@
     package="com.androidwave8.dailygadget">
 
     <application
+        android:name=".model.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,9 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyGadget">
         <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".view.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.DummyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.RegistrationActivity"
+            android:exported="true">
+
+
             android:name=".OnBoarding"
             android:theme="@style/Theme.Onboarding.fullscreen"
             android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

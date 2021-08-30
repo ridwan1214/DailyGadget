@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio - Projects/DailyGadget/app/src/main/res/drawable/bg_profile_container.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio - Projects/DailyGadget/app/src/main/res/layout/activity_dummy.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio - Projects/DailyGadget/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_on_boarding.xml" value="0.33" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_splash_screen.xml" value="0.1828125" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/fragment_first_page.xml" value="0.1703125" />
