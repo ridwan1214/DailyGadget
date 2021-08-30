@@ -19,7 +19,21 @@
         <activity
             android:name=".ui.home.HomeActivity"
             android:exported="true">
+        </activity>
+        <activity
+            android:name=".view.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.DummyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.RegistrationActivity"
+            android:exported="true">
 
+
+            android:name=".OnBoarding"
+            android:theme="@style/Theme.Onboarding.fullscreen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +44,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
         </activity>
     </application>
 
