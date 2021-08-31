@@ -1,6 +1,6 @@
 package com.androidwave8.dailygadget.data.ui.home
 
-import com.androidwave8.dailygadget.utils.App
+import com.androidwave8.dailygadget.App
 import com.androidwave8.dailygadget.data.db.Gadget
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

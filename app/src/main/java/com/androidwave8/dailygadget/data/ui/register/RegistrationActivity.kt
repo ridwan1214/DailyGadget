@@ -52,6 +52,4 @@ class RegistrationActivity : AppCompatActivity(), RegistrationActivityView {
     override fun regFailed(msg: String) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
     }
-
-
 }
