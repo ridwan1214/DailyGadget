@@ -10,6 +10,7 @@ import com.androidwave8.dailygadget.R
 import com.androidwave8.dailygadget.data.ui.splashscreen.ViewPagerAdapter
 import com.androidwave8.dailygadget.databinding.ActivityOnBoardingBinding
 import com.androidwave8.dailygadget.data.ui.register.RegistrationActivity
+import com.androidwave8.dailygadget.ui.login.LoginActivity
 
 class OnBoarding : AppCompatActivity() {
 
@@ -80,7 +81,7 @@ class OnBoarding : AppCompatActivity() {
                 val currentItemPosition = binding.pager.currentItem
                 if (currentItemPosition == itemList.size - 1) {
                     Toast.makeText(this, "Start Login Activity", Toast.LENGTH_SHORT).show()
-                    Intent(this, RegistrationActivity::class.java).apply {
+                    Intent(this, LoginActivity::class.java).apply {
                         startActivity(this)
                     }
                     return
@@ -89,7 +90,7 @@ class OnBoarding : AppCompatActivity() {
             }
             binding.tvSkip -> {
                 Toast.makeText(this, "Start Login Activity", Toast.LENGTH_SHORT).show()
-                Intent(this, RegistrationActivity::class.java).apply {
+                Intent(this, LoginActivity::class.java).apply {
                     startActivity(this)
                 }
             }
