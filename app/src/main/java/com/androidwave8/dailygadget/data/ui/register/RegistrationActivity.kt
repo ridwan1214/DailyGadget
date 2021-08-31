@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.androidwave8.dailygadget.databinding.ActivityRegistrationBinding
 import com.androidwave8.dailygadget.data.db.User
 import com.androidwave8.dailygadget.data.ui.home.HomeActivity
+import com.androidwave8.dailygadget.utils.SharePref
 import com.androidwave8.dailygadget.utils.getTextToString
 
 
