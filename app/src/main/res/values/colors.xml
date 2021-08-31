@@ -11,6 +11,9 @@
 
     <!-- Registration -->
     <!--<color name="green_main_color">#135753</color>-->
+
+    <color name="greensoft">#00E60F</color>
+    
     <color name="grey_outline">#6C727C</color>
     <color name="grey_text">#8E8F8F</color>
     <color name="green_bg">#0A9253</color>
@@ -21,6 +24,7 @@
     <color name="blue_profile">#DEF4E5</color>
     <color name="green_profile">#DCF3DD</color>
     <color name="yellow_profile">#F6A33D</color>
+
 
 <!--    <color name="green">#01A75F</color>-->
     <color name="greenOff">#26B476</color>
