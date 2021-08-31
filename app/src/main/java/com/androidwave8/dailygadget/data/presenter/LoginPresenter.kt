@@ -29,7 +29,7 @@ class LoginPresenter(private val v: LoginActivity){
     fun login(username: String, password: String) {
         GlobalScope.launch(Dispatchers.IO) {
             try {
-                val user = App.dbUser
+                val user = App.db
                     .usersDao()
                     .getUser(username, password)
 

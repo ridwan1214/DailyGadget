@@ -26,6 +26,12 @@ class RegistrationActivity : AppCompatActivity(), RegistrationActivityView {
             val email = binding.etEmail
             val address = binding.etAddress
 
+            SharePref.username = username.text.toString()
+            SharePref.email = email.text.toString()
+            SharePref.password = password.text.toString()
+            SharePref.address = address.text.toString()
+
+
             if (presenter.fieldIsEmpty(username, password, email, address)) {
                 Toast.makeText(this, "Data must be filled", Toast.LENGTH_SHORT).show()
             } else {
@@ -53,6 +59,4 @@ class RegistrationActivity : AppCompatActivity(), RegistrationActivityView {
     override fun regFailed(msg: String) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
     }
-
-
 }

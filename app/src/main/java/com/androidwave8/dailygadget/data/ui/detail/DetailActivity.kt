@@ -10,6 +10,7 @@ import android.widget.Toast
 
 import androidx.core.view.WindowCompat
 import com.androidwave8.dailygadget.R
+import com.androidwave8.dailygadget.data.ui.home.ListData
 import com.androidwave8.dailygadget.databinding.ActivityDetailBinding
 import com.bumptech.glide.Glide
 
@@ -25,6 +26,9 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val bundle = intent.getBundleExtra("Bundle")
+        val objects = bundle?.getParcelable<ListData>("key")
 
         val toolbarXml = binding.toolbar
 
@@ -42,6 +46,9 @@ class DetailActivity : AppCompatActivity() {
 
         binding.text1.text = getString(R.string.lorem_ipsum)
         binding.text2.text = getString(R.string.lorem_ipsum2)
+        binding.tvDetailName.text = objects!!.title
+
+
 
         val messageTitle = binding.tvDetailName.text.toString()
 
