@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.androidwave8.dailygadget.databinding.ActivityRegistrationBinding
 import com.androidwave8.dailygadget.data.db.User
 import com.androidwave8.dailygadget.data.ui.home.HomeActivity
+import com.androidwave8.dailygadget.utils.SharePref
 import com.androidwave8.dailygadget.utils.getTextToString
 
 
@@ -24,6 +25,12 @@ class RegistrationActivity : AppCompatActivity(), RegistrationActivityView {
             val password = binding.etPass
             val email = binding.etEmail
             val address = binding.etAddress
+
+            SharePref.username = username.text.toString()
+            SharePref.email = email.text.toString()
+            SharePref.password = password.text.toString()
+            SharePref.address = address.text.toString()
+
 
             if (presenter.fieldIsEmpty(username, password, email, address)) {
                 Toast.makeText(this, "Data must be filled", Toast.LENGTH_SHORT).show()
