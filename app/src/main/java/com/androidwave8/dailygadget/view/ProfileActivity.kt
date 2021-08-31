@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.androidwave8.dailygadget.databinding.ActivityProfileBinding
 import com.androidwave8.dailygadget.presenter.ProfilePresenter
+import com.androidwave8.dailygadget.ui.home.HomeActivity
 import com.androidwave8.dailygadget.utils.SharePref
 
 
@@ -13,7 +14,7 @@ class ProfileActivity : AppCompatActivity(),ProfileActivityView {
     private lateinit var binding : ActivityProfileBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)git
+        super.onCreate(savedInstanceState)
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -22,6 +23,11 @@ class ProfileActivity : AppCompatActivity(),ProfileActivityView {
         binding.tvPasswordData.text = SharePref.password
         binding.tvAddressData.text = SharePref.address
 
+        binding.ivBackArrow.setOnClickListener {
+            Intent(this, HomeActivity::class.java).apply{
+                startActivity(this)
+            }
+        }
 
     }
 
