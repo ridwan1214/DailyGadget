@@ -37,6 +37,7 @@ class ProfileActivity : AppCompatActivity(), ProfileActivityView {
                 Intent(this, LoginActivity::class.java).apply {
                     startActivity(this)
                 }
+                finish()
             }
         }
 
