@@ -1,13 +1,12 @@
-package com.androidwave8.dailygadget.view
+package com.androidwave8.dailygadget.data.ui.register
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.androidwave8.dailygadget.databinding.ActivityRegistrationBinding
-import com.androidwave8.dailygadget.model.User
-import com.androidwave8.dailygadget.presenter.RegistrationPresenter
-import com.androidwave8.dailygadget.ui.home.HomeActivity
+import com.androidwave8.dailygadget.data.db.User
+import com.androidwave8.dailygadget.data.ui.home.HomeActivity
 import com.androidwave8.dailygadget.utils.getTextToString
 
 

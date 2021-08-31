@@ -1,11 +1,10 @@
-package com.androidwave8.dailygadget
+package com.androidwave8.dailygadget.utils
 
 import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
 import com.androidwave8.dailygadget.data.db.DB
-import com.androidwave8.dailygadget.model.Database
 
 class App : Application() {
 
@@ -13,7 +12,7 @@ class App : Application() {
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
         lateinit var db: DB
-        lateinit var dbUser: Database
+        //lateinit var dbUser: Database
     }
 
     override fun onCreate() {
@@ -22,12 +21,7 @@ class App : Application() {
 
         db = Room.databaseBuilder(
             context.applicationContext,
-            DB::class.java, "gadget"
-        ).build()
-
-        dbUser = Room.databaseBuilder(
-            context.applicationContext,
-            Database::class.java, "user"
+            DB::class.java, "DailyGadget"
         ).build()
     }
 }

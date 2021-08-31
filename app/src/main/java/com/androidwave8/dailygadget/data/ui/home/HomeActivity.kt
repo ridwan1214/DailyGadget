@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget.ui.home
+package com.androidwave8.dailygadget.data.ui.home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,9 +11,8 @@ import com.androidwave8.dailygadget.R
 import com.androidwave8.dailygadget.data.db.Gadget
 import com.androidwave8.dailygadget.data.ui.DetailActivity
 import com.androidwave8.dailygadget.databinding.ActivityHomeBinding
-import com.androidwave8.dailygadget.databinding.ActivityProfileBinding
-import com.androidwave8.dailygadget.ui.list.ListActivity
-import com.androidwave8.dailygadget.view.ProfileActivity
+import com.androidwave8.dailygadget.data.ui.list.ListActivity
+import com.androidwave8.dailygadget.data.ui.profile.ProfileActivity
 
 class HomeActivity : AppCompatActivity(), HomeView {
 

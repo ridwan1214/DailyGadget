@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget.view
+package com.androidwave8.dailygadget.data.ui.profile
 
 interface ProfileActivityView {
     fun getProfileSuccess()

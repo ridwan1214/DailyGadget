@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget.ui.home
+package com.androidwave8.dailygadget.data.ui.home
 
 import com.androidwave8.dailygadget.data.db.Gadget
 

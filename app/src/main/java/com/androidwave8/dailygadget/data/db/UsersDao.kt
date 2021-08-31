@@ -1,7 +1,6 @@
-package com.androidwave8.dailygadget.model
+package com.androidwave8.dailygadget.data.db
 
 import androidx.room.*
-import com.androidwave8.dailygadget.model.User
 
 @Dao
 interface UsersDao {

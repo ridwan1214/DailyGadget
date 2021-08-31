@@ -1,8 +1,9 @@
-package com.androidwave8.dailygadget
+package com.androidwave8.dailygadget.data.ui.splashscreen
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.androidwave8.dailygadget.data.ui.onboarding.OnBoardingData
 import com.androidwave8.dailygadget.databinding.ItemOnboardingScreen2Binding
 import com.androidwave8.dailygadget.databinding.ItemOnboardingScreenBinding
 

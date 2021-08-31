@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget
+package com.androidwave8.dailygadget.data.ui.onboarding
 
 import androidx.annotation.DrawableRes
 

@@ -1,16 +1,15 @@
-package com.androidwave8.dailygadget.view
+package com.androidwave8.dailygadget.data.ui.profile
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.androidwave8.dailygadget.databinding.ActivityProfileBinding
-import com.androidwave8.dailygadget.presenter.ProfilePresenter
-import com.androidwave8.dailygadget.ui.home.HomeActivity
+import com.androidwave8.dailygadget.data.ui.home.HomeActivity
 import com.androidwave8.dailygadget.utils.SharePref
 
 
 
-class ProfileActivity : AppCompatActivity(),ProfileActivityView {
+class ProfileActivity : AppCompatActivity(), ProfileActivityView {
     private lateinit var binding : ActivityProfileBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

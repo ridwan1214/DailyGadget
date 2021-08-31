@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget.ui.list
+package com.androidwave8.dailygadget.data.ui.list
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.widget.EditText
 import android.widget.Toast
 import com.androidwave8.dailygadget.data.db.Gadget
 import com.androidwave8.dailygadget.databinding.ActivityListBinding
-import com.androidwave8.dailygadget.ui.home.ListData
+import com.androidwave8.dailygadget.data.ui.home.ListData
 
 class ListActivity : AppCompatActivity(), ListView {
 

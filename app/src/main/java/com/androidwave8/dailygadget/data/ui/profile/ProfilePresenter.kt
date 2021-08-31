@@ -1,7 +1,6 @@
-package com.androidwave8.dailygadget.presenter
+package com.androidwave8.dailygadget.data.ui.profile
 
-import com.androidwave8.dailygadget.App
-import com.androidwave8.dailygadget.view.ProfileActivityView
+import com.androidwave8.dailygadget.utils.App
 import com.androidwave8.dailygadget.utils.SharePref
 
 import kotlinx.coroutines.Dispatchers
@@ -12,7 +11,7 @@ class ProfilePresenter(private val v: ProfileActivityView){
     fun getUser(email:String, password : String){
         GlobalScope.launch(Dispatchers.IO) {
             try {
-                val user = App.dbUser
+                val user = App.db
                     ?.usersDao()
                     ?.getUser(email, password)
 

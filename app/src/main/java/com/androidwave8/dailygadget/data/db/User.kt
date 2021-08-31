@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget.model
+package com.androidwave8.dailygadget.data.db
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

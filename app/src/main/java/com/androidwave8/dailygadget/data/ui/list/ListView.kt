@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget.ui.list
+package com.androidwave8.dailygadget.data.ui.list
 
 interface ListView {
     fun addGadgetSuccess()

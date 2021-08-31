@@ -1,11 +1,11 @@
-package com.androidwave8.dailygadget.ui.home
+package com.androidwave8.dailygadget.data.ui.home
 
 import android.annotation.SuppressLint
 import android.os.Parcelable
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.androidwave8.dailygadget.App
+import com.androidwave8.dailygadget.utils.App
 import com.androidwave8.dailygadget.data.db.Gadget
 import com.androidwave8.dailygadget.databinding.ListGadgetItemBinding
 import com.bumptech.glide.Glide

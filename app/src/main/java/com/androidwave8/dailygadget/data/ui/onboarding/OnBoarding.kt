@@ -1,20 +1,15 @@
-package com.androidwave8.dailygadget
+package com.androidwave8.dailygadget.data.ui.onboarding
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.widget.TextView
 import android.widget.Toast
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
-import androidx.viewpager.widget.PagerAdapter
-import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
+import com.androidwave8.dailygadget.R
+import com.androidwave8.dailygadget.data.ui.splashscreen.ViewPagerAdapter
 import com.androidwave8.dailygadget.databinding.ActivityOnBoardingBinding
-import com.androidwave8.dailygadget.view.RegistrationActivity
-import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+import com.androidwave8.dailygadget.data.ui.register.RegistrationActivity
 
 class OnBoarding : AppCompatActivity() {
 

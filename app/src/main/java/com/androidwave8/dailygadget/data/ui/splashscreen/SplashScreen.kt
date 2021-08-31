@@ -1,10 +1,12 @@
-package com.androidwave8.dailygadget
+package com.androidwave8.dailygadget.data.ui.splashscreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.androidwave8.dailygadget.R
+import com.androidwave8.dailygadget.data.ui.onboarding.OnBoarding
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
