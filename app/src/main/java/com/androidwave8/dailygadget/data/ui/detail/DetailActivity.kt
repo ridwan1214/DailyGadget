@@ -1,4 +1,4 @@
-package com.androidwave8.dailygadget.data.ui
+package com.androidwave8.dailygadget.data.ui.detail
 
 import android.annotation.SuppressLint
 import android.content.Intent

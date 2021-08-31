@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.androidwave8.dailygadget.R
 import com.androidwave8.dailygadget.data.db.Gadget
-import com.androidwave8.dailygadget.data.ui.DetailActivity
+import com.androidwave8.dailygadget.data.ui.detail.DetailActivity
 import com.androidwave8.dailygadget.databinding.ActivityHomeBinding
 import com.androidwave8.dailygadget.data.ui.list.ListActivity
 import com.androidwave8.dailygadget.data.ui.profile.ProfileActivity
@@ -53,9 +53,15 @@ class HomeActivity : AppCompatActivity(), HomeView {
             }
         }
 
-        val btnImg = findViewById<ImageView>(R.id.imgProfile)
+        /*val btnImg = findViewById<ImageView>(R.id.imgProfile)
 
         btnImg.setOnClickListener {
+            Intent(this, ProfileActivity::class.java).apply {
+                startActivity(this)
+            }
+        }*/
+
+        binding.imgProfile.setOnClickListener {
             Intent(this, ProfileActivity::class.java).apply {
                 startActivity(this)
             }
