@@ -2,11 +2,8 @@ package com.androidwave8.dailygadget.data.ui.register
 
 import android.text.TextUtils
 import android.widget.EditText
+import com.androidwave8.dailygadget.App
 import com.androidwave8.dailygadget.data.db.User
-
-
-
-import com.androidwave8.dailygadget.utils.App
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

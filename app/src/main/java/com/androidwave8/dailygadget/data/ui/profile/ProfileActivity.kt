@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.androidwave8.dailygadget.databinding.ActivityProfileBinding
 import com.androidwave8.dailygadget.data.ui.home.HomeActivity
+import com.androidwave8.dailygadget.ui.login.LoginActivity
 import com.androidwave8.dailygadget.utils.SharePref
 
 
@@ -17,6 +18,8 @@ class ProfileActivity : AppCompatActivity(), ProfileActivityView {
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        println("MASUUKKKKK ${SharePref}")
+
         binding.tvUsernameData.text = SharePref.username
         binding.tvEmailData.text = SharePref.email
         binding.tvPasswordData.text = SharePref.password
@@ -25,6 +28,15 @@ class ProfileActivity : AppCompatActivity(), ProfileActivityView {
         binding.ivBackArrow.setOnClickListener {
             Intent(this, HomeActivity::class.java).apply{
                 startActivity(this)
+            }
+        }
+
+        binding.tvLogout.setOnClickListener {
+            SharePref.removeLogin()
+            if(!SharePref.isLogin) {
+                Intent(this, LoginActivity::class.java).apply {
+                    startActivity(this)
+                }
             }
         }
 

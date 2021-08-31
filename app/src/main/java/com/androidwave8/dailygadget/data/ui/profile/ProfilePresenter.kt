@@ -1,6 +1,6 @@
 package com.androidwave8.dailygadget.data.ui.profile
 
-import com.androidwave8.dailygadget.utils.App
+import com.androidwave8.dailygadget.App
 import com.androidwave8.dailygadget.utils.SharePref
 
 import kotlinx.coroutines.Dispatchers

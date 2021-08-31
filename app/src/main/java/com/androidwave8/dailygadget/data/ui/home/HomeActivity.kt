@@ -32,9 +32,12 @@ class HomeActivity : AppCompatActivity(), HomeView {
         binding.rvListGadget.adapter = adapter
 
         adapter.setListenerClickItem { gadget ->
-            Intent(this, DetailActivity::class.java).apply {
-                startActivity(this)
-            }
+            val myIntent = Intent(this, DetailActivity::class.java)
+            val args = Bundle()
+            val list = ListData(gadget.title, gadget.description,gadget.price, gadget.image, gadget.uid)
+            args.putParcelable("key", list)
+            myIntent.putExtra("Bundle", args)
+            startActivity(myIntent)
         }
 
         adapter.setListenClickEdit { gadget, index ->
