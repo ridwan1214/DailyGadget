@@ -41,13 +41,13 @@ class DetailActivity : AppCompatActivity() {
         // Set Image
         Glide
             .with(this)
-            .load("https://cf.shopee.co.id/file/c05f4cc931d294035eae9e4f4df1ac2c")
+            .load(objects!!.imgUrl)
             .into(binding.ivDetail)
 
         binding.text1.text = getString(R.string.lorem_ipsum)
         binding.text2.text = getString(R.string.lorem_ipsum2)
         binding.tvDetailName.text = objects!!.title
-
+        binding.tvPrice.text = objects!!.price
 
 
         val messageTitle = binding.tvDetailName.text.toString()
