@@ -80,7 +80,6 @@ class OnBoarding : AppCompatActivity() {
             binding.tvNext -> {
                 val currentItemPosition = binding.pager.currentItem
                 if (currentItemPosition == itemList.size - 1) {
-                    Toast.makeText(this, "Start Login Activity", Toast.LENGTH_SHORT).show()
                     Intent(this, LoginActivity::class.java).apply {
                         startActivity(this)
                     }
@@ -89,7 +88,6 @@ class OnBoarding : AppCompatActivity() {
                 binding.pager.setCurrentItem(currentItemPosition+1,true)
             }
             binding.tvSkip -> {
-                Toast.makeText(this, "Start Login Activity", Toast.LENGTH_SHORT).show()
                 Intent(this, LoginActivity::class.java).apply {
                     startActivity(this)
                 }
