@@ -33,9 +33,9 @@
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/drawable/rv_item_image_background.xml" value="0.2518518518518518" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/drawable/user_image_background.xml" value="0.2611111111111111" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_add_edit_address.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_add_product.xml" value="0.1" />
+        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_add_product.xml" value="0.25" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_address_list.xml" value="0.16" />
-        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_cart_list.xml" value="0.14" />
+        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_cart_list.xml" value="0.33" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_detail.xml" value="0.2713541666666667" />
@@ -45,7 +45,7 @@
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_login.xml" value="0.264945652173913" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_my_order_details.xml" value="0.2" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_on_boarding.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_product_details.xml" value="0.1" />
+        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_product_details.xml" value="0.5" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_registration.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_settings.xml" value="0.1" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/activity_sold_product_details.xml" value="0.33" />
@@ -57,10 +57,10 @@
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/fragment_product.xml" value="0.1" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/fragment_products.xml" value="0.1" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/fragment_sold_product.xml" value="0.1" />
-        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/fragment_sold_products.xml" value="0.1" />
-        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_address_layout.xml" value="0.1" />
-        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_cart_layout.xml" value="0.22" />
-        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_dashboard_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/fragment_sold_products.xml" value="0.22" />
+        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_address_layout.xml" value="0.5" />
+        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_cart_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_dashboard_layout.xml" value="0.33" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_list_layout.xml" value="0.16" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_onboarding_screen.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Muhammad Ridwan/Documents/DailyGadget/app/src/main/res/layout/item_onboarding_screen2.xml" value="0.266304347826087" />
