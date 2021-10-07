@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "233910631036",
+    "project_id": "dailygadget-c569d",
+    "storage_bucket": "dailygadget-c569d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233910631036:android:c23262e7d4d4881eeca7f9",
+        "android_client_info": {
+          "package_name": "com.androidwave8.dailygadget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233910631036-ba6e79onbo6tt0a0s11ve1ihd0cq2st6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7t4dsKkB-1RcbERy7fLssLMJGBKnqu0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233910631036-ba6e79onbo6tt0a0s11ve1ihd0cq2st6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
