@@ -64,7 +64,7 @@ open class AddressListAdapter(
         val intent = Intent(context, AddEditAddressActivity::class.java)
         intent.putExtra(Constants.EXTRA_ADDRESS_DETAILS, list[position])
         activity.startActivityForResult(intent, Constants.ADD_ADDRESS_REQUEST_CODE)
-        notifyItemChanged(position) // Notify any registered observers that the item at position has changed.
+        notifyItemChanged(position)
     }
 
 
