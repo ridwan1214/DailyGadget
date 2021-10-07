@@ -4,11 +4,10 @@ import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
-import com.androidwave8.dailygadget.data.db.DB
 
 class App : Application() {
 
-    companion object {
+    /*companion object {
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
         lateinit var db: DB
@@ -23,5 +22,5 @@ class App : Application() {
             context.applicationContext,
             DB::class.java, "DailyGadget"
         ).build()
-    }
+    }*/
 }
